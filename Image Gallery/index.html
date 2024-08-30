@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <input type="text" id="searchInput" placeholder="Search images..." onkeyup="searchImages()">
+        <div class="gallery" id="gallery">
+            <div class="gallery-item" data-title="Sunset">
+                <img src="./sunset.webp" alt="Sunset">
+                <p>Sunset</p>
+            </div>
+            <div class="gallery-item" data-title="Mountains">
+                <img src="./Mountains.jfif" alt="Mountains">
+                <p>Mountains</p>
+            </div>
+            <div class="gallery-item" data-title="Forest">
+                <img src="./forest 2.jfif" alt="Forest">
+                <p>Forest</p>
+            </div>
+            <div class="gallery-item" data-title="Ocean">
+                <img src="./ocean.jfif" alt="Ocean">
+                <p>Ocean</p>
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
